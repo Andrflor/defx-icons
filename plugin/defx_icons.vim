@@ -106,7 +106,7 @@ let s:extensions = extend({
       \ 'hs': {'icon': '', 'color': s:gui_colors.beige, 'term_color': s:term_colors.beige},
       \ 'lhs': {'icon': '', 'color': s:gui_colors.beige, 'term_color': s:term_colors.beige},
       \ 'lua': {'icon': '', 'color': s:gui_colors.purple, 'term_color': s:term_colors.purple},
-      \ 'java': {'icon': '', 'color': s:gui_colors.purple, 'term_color': s:term_colors.purple},
+      \ 'java': {'icon': '', 'color': s:gui_colors.yellow, 'term_color': s:term_colors.yellow},
       \ 'sh': {'icon': '', 'color': s:gui_colors.lightPurple, 'term_color': s:term_colors.lightPurple},
       \ 'fish': {'icon': '', 'color': s:gui_colors.green, 'term_color': s:term_colors.green},
       \ 'bash': {'icon': '', 'color': s:gui_colors.default, 'term_color': s:term_colors.default},
@@ -156,6 +156,7 @@ let s:extensions = extend({
       \ 'jl': {'icon': '', 'color': s:gui_colors.purple, 'term_color': s:term_colors.purple},
       \ 'pp': {'icon': '', 'color': s:gui_colors.default, 'term_color': s:term_colors.default},
       \ 'vue': {'icon': '﵂', 'color': s:gui_colors.green, 'term_color': s:term_colors.green},
+      \ 'kt': {'icon': '', 'color': s:gui_colors.darkOrange, 'term_color': s:term_colors.darkOrange},
       \ }, get(g:, 'defx_icons_extensions', {}))
 
 let s:exact_matches = extend({
